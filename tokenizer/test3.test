@@ -6166,7 +6166,10 @@
 
 {"description":"<a a=\"&\">",
 "input":"<a a=\"&\">",
-"output":[["StartTag", "a", {"a":"&"}]]},
+"output":[["StartTag", "a", {"a":"&"}]],
+"errors": [
+    {"code" : "invalid-character-reference-name", "line": 1, "col": 7}
+]},
 
 {"description":"<a a=\"'\">",
 "input":"<a a=\"'\">",
@@ -6266,7 +6269,10 @@
 
 {"description":"<a a=&>",
 "input":"<a a=&>",
-"output":[["StartTag", "a", {"a":"&"}]]},
+"output":[["StartTag", "a", {"a":"&"}]],
+"errors": [
+    {"code" : "invalid-character-reference-name", "line": 1, "col": 6 }
+]},
 
 {"description":"<a a=''>",
 "input":"<a a=''>",
@@ -6316,7 +6322,10 @@
 
 {"description":"<a a='&'>",
 "input":"<a a='&'>",
-"output":[["StartTag", "a", {"a":"&"}]]},
+"output":[["StartTag", "a", {"a":"&"}]],
+"errors": [
+    {"code" : "invalid-character-reference-name", "line": 1, "col": 7 }
+]},
 
 {"description":"<a a=''>",
 "input":"<a a=''>",
@@ -6791,7 +6800,10 @@
 
 {"description":"<a a=a&>",
 "input":"<a a=a&>",
-"output":[["StartTag", "a", {"a":"a&"}]]},
+"output":[["StartTag", "a", {"a":"a&"}]],
+"errors": [
+    {"code" : "invalid-character-reference-name", "line": 1, "col": 7 }
+]},
 
 {"description":"<a a=a'>",
 "input":"<a a=a'>",
