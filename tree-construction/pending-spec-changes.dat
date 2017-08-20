@@ -4,6 +4,8 @@
 (1,21): expected-doctype-but-got-start-tag
 (1,31): unexpected-start-tag
 (1,31): eof-in-frameset
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -32,6 +34,8 @@
 (1,30): unexpected-cell-end-tag
 (1,37): unexpected-end-tag
 (1,45): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

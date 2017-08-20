@@ -270,6 +270,7 @@
 (1,21): unexpected-end-tag
 (2,0): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:11) unexpected-character-in-attribute-name
 (1:13) unexpected-solidus-in-tag
 #document
@@ -384,6 +385,8 @@
 Line 1 Col 8 Unexpected start tag (button). Expected DOCTYPE.
 Line 1 Col 19 Unexpected start tag (button) implies end tag (button).
 Line 1 Col 19 Expected closing tag. Unexpected end of file.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

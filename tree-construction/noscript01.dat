@@ -4,6 +4,8 @@
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 31 Unexpected DOCTYPE. Ignored.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -17,6 +19,8 @@ Line: 1 Col: 31 Unexpected DOCTYPE. Ignored.
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 34 html needs to be the first start tag.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   class="foo"
@@ -30,6 +34,8 @@ Line: 1 Col: 34 html needs to be the first start tag.
 #script-off
 #errors
 (1,6): expected-doctype-but-got-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -41,6 +47,8 @@ Line: 1 Col: 34 html needs to be the first start tag.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -53,6 +61,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 (1,6): expected-doctype-but-got-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -65,6 +75,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -78,6 +90,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -91,6 +105,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -104,6 +120,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -117,6 +135,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -130,6 +150,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 #script-off
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -146,6 +168,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 21 Element br not allowed in a inhead-noscript context
 Line: 1 Col: 21 Unexpected end tag (br). Treated as br element.
 Line: 1 Col: 42 Unexpected end tag (noscript). Ignored.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -160,6 +184,8 @@ Line: 1 Col: 42 Unexpected end tag (noscript). Ignored.
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 34 Unexpected start tag (head).
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -173,6 +199,8 @@ Line: 1 Col: 34 Unexpected start tag (head).
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 34 Unexpected start tag (noscript).
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -186,6 +214,8 @@ Line: 1 Col: 34 Unexpected start tag (noscript).
 #errors
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 20 Unexpected end tag (p). Ignored.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -200,6 +230,8 @@ Line: 1 Col: 20 Unexpected end tag (p). Ignored.
 Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 19 Element p not allowed in a inhead-noscript context
 Line: 1 Col: 40 Unexpected end tag (noscript). Ignored.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -216,6 +248,8 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 19 Unexpected non-space character. Expected inhead-noscript content
 Line: 1 Col: 30 Unexpected end tag (noscript). Ignored.
 Line: 1 Col: 37 Unexpected end tag (head). Ignored.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -230,6 +264,8 @@ Line: 1 Col: 37 Unexpected end tag (head). Ignored.
 #errors
 (1,6): expected-doctype-but-got-tag
 (1,6): eof-in-head-noscript
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

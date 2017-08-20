@@ -1306,6 +1306,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,8): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1317,6 +1319,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,9): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1329,6 +1333,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,9): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1341,6 +1347,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,10): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1353,6 +1361,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,11): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1365,6 +1375,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,12): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1377,6 +1389,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,13): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1389,6 +1403,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,14): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1401,6 +1417,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,15): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1413,6 +1431,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,16): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1427,6 +1447,7 @@
 (1,17): expected-attribute-name-but-got-eof
 (1,17): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:18) eof-in-tag
 #document
 | <html>
@@ -1439,6 +1460,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,11): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1451,6 +1474,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,12): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1463,6 +1488,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,13): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1475,6 +1502,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,14): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1487,6 +1516,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,15): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1499,6 +1530,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,16): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1513,6 +1546,7 @@
 (1,17): expected-attribute-name-but-got-eof
 (1,17): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:18) eof-in-tag
 #document
 | <html>
@@ -1526,6 +1560,8 @@
 (1,8): expected-doctype-but-got-start-tag
 (1,10): expected-script-data-but-got-eof
 (1,10): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1538,6 +1574,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,11): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1550,6 +1588,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,11): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1562,6 +1602,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,12): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1576,6 +1618,7 @@
 (1,12): expected-named-closing-tag-but-got-eof
 (1,12): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:13) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1591,6 +1634,7 @@
 (1,13): expected-named-closing-tag-but-got-eof
 (1,13): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:14) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1606,6 +1650,7 @@
 (1,13): expected-named-closing-tag-but-got-eof
 (1,13): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:14) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1621,6 +1666,7 @@
 (1,14): expected-named-closing-tag-but-got-eof
 (1,14): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:15) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1636,6 +1682,7 @@
 (1,14): expected-named-closing-tag-but-got-eof
 (1,14): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:15) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1651,6 +1698,7 @@
 (1,20): expected-named-closing-tag-but-got-eof
 (1,20): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:21) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1666,6 +1714,7 @@
 (1,21): expected-attribute-name-but-got-eof
 (1,21): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:22) eof-in-tag
 #document
 | <html>
@@ -1681,6 +1730,7 @@
 (1,14): expected-named-closing-tag-but-got-eof
 (1,14): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:15) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1696,6 +1746,7 @@
 (1,19): expected-named-closing-tag-but-got-eof
 (1,19): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:20) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1711,6 +1762,7 @@
 (1,20): eof-in-script-in-script
 (1,20): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:21) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1726,6 +1778,7 @@
 (1,21): eof-in-script-in-script
 (1,21): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:22) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1741,6 +1794,7 @@
 (1,22): eof-in-script-in-script
 (1,22): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:23) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1756,6 +1810,7 @@
 (1,22): eof-in-script-in-script
 (1,22): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:23) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1771,6 +1826,7 @@
 (1,23): eof-in-script-in-script
 (1,23): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:24) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1786,6 +1842,7 @@
 (1,28): eof-in-script-in-script
 (1,28): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:29) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1801,6 +1858,7 @@
 (1,29): eof-in-script-in-script
 (1,29): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:30) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1816,6 +1874,7 @@
 (1,29): expected-named-closing-tag-but-got-eof
 (1,29): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:30) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1831,6 +1890,7 @@
 (1,29): expected-named-closing-tag-but-got-eof
 (1,29): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:30) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1846,6 +1906,7 @@
 (1,29): expected-named-closing-tag-but-got-eof
 (1,29): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:30) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1861,6 +1922,7 @@
 (1,30): expected-named-closing-tag-but-got-eof
 (1,30): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:31) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1876,6 +1938,7 @@
 (1,31): expected-named-closing-tag-but-got-eof
 (1,31): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:32) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1891,6 +1954,7 @@
 (1,31): expected-named-closing-tag-but-got-eof
 (1,31): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:32) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1906,6 +1970,7 @@
 (1,37): expected-named-closing-tag-but-got-eof
 (1,37): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:38) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1921,6 +1986,7 @@
 (1,38): expected-attribute-name-but-got-eof
 (1,38): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:39) eof-in-tag
 #document
 | <html>
@@ -1936,6 +2002,7 @@
 (1,38): unexpected-EOF-after-solidus-in-tag
 (1,38): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:39) eof-in-tag
 #document
 | <html>
@@ -1948,6 +2015,8 @@
 <script><!--<script </script </script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1962,6 +2031,7 @@
 (1,21): eof-in-script-in-script
 (1,21): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:22) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1977,6 +2047,7 @@
 (1,22): eof-in-script-in-script
 (1,22): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:23) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -1992,6 +2063,7 @@
 (1,22): eof-in-script-in-script
 (1,22): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:23) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -2007,6 +2079,7 @@
 (1,23): eof-in-script-in-script
 (1,23): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:24) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -2020,6 +2093,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,23): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2032,6 +2107,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,24): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2044,6 +2121,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,25): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2056,6 +2135,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,31): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2070,6 +2151,7 @@
 (1,32): expected-attribute-name-but-got-eof
 (1,32): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:33) eof-in-tag
 #document
 | <html>
@@ -2085,6 +2167,7 @@
 (1,32): unexpected-EOF-after-solidus-in-tag
 (1,32): expected-named-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:33) eof-in-tag
 #document
 | <html>
@@ -2097,6 +2180,8 @@
 <script><!--<script --></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2108,6 +2193,8 @@
 <script><!--<script><\/script>--></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2119,6 +2206,8 @@
 <script><!--<script></scr'+'ipt>--></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2130,6 +2219,8 @@
 <script><!--<script></script><script></script></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2141,6 +2232,8 @@
 <script><!--<script></script><script></script>--><!--</script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2152,6 +2245,8 @@
 <script><!--<script></script><script></script>-- ></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2163,6 +2258,8 @@
 <script><!--<script></script><script></script>- -></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2174,6 +2271,8 @@
 <script><!--<script></script><script></script>- - ></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2185,6 +2284,8 @@
 <script><!--<script></script><script></script>-></script>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2199,6 +2300,7 @@
 (1,34): expected-named-closing-tag-but-got-eof
 (1,34): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:35) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -2212,6 +2314,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,44): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2227,6 +2331,7 @@
 (1,42): expected-named-closing-tag-but-got-eof
 (1,42): unexpected-eof-in-text-mode
 #new-errors
+(1:1) missing-doctype
 (1:43) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -2240,6 +2345,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,37): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2252,6 +2359,8 @@
 <style><!--</style>X
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2265,6 +2374,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,36): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2277,6 +2388,8 @@
 <style><!--<br><html xmlns:v="urn:schemas-microsoft-com:vml"><!--[if !mso]><style></style>X
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2290,6 +2403,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,51): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2302,6 +2417,8 @@
 <style><!--...</style><!-- --><style>@import ...</style>
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2317,6 +2434,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,48): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2329,6 +2448,8 @@
 <style>...<!--[if IE]><style>...</style>X
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2342,6 +2463,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,37): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2354,6 +2477,8 @@
 <title>&lt;/title></title>
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2366,6 +2491,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,37): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2379,6 +2506,8 @@
 (1,10): expected-doctype-but-got-start-tag
 (1,49): unexpected-end-tag
 #script-on
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2392,6 +2521,8 @@
 #errors
  * (1,11) missing DOCTYPE
 #script-off
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2404,6 +2535,8 @@
 #errors
 (1,10): expected-doctype-but-got-start-tag
 #script-on
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2419,6 +2552,8 @@
 #errors
 (1,10): expected-doctype-but-got-start-tag
 #script-off
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2431,6 +2566,8 @@
 #errors
 (1,10): expected-doctype-but-got-start-tag
 #script-on
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2446,6 +2583,8 @@
  * (1,19) unexpected token in head noscript
  * (1,31) unexpected EOF
 #script-off
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2459,6 +2598,8 @@
 #errors
 (1,10): expected-doctype-but-got-start-tag
 (1,49): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2471,6 +2612,8 @@
 <noframes><body><script><!--...</script></body></noframes></html>
 #errors
 (1,10): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2483,6 +2626,8 @@
 #errors
 (1,10): expected-doctype-but-got-start-tag
 (1,49): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2495,6 +2640,8 @@
 <textarea>&lt;/textarea></textarea>
 #errors
 (1,10): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2507,6 +2654,8 @@
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,41): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2519,6 +2668,8 @@
 <iframe>...<!--X->...<!--/X->...</iframe>
 #errors
 (1,8): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2531,6 +2682,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,29): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -2544,6 +2697,8 @@
 #errors
 (1,9): expected-doctype-but-got-start-tag
 (1,45): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

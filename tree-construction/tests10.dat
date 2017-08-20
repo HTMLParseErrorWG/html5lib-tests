@@ -438,6 +438,8 @@
 (1,12) unexpected-end-tag
 (1,12) unexpected-end-tag
 (1,12) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -450,6 +452,8 @@
 (1,5) expected-doctype-but-got-start-tag
 (1,16) unexpected-end-tag
 (1,16) end-tag-too-early
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -464,6 +468,8 @@
 (1,5) expected-doctype-but-got-start-tag
 (1,22) unexpected-end-tag
 (1,22) end-tag-too-early
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -479,6 +485,8 @@
 (1,5) expected-doctype-but-got-start-tag
 (1,22) unexpected-end-tag
 (1,28) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -495,6 +503,8 @@
 (1,43) unexpected-end-tag
 (1,43) end-tag-too-early
 (1,44) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -512,6 +522,8 @@
 (1,5) expected-doctype-but-got-start-tag
 (1,40) end-tag-too-early
 (1,41) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -590,6 +602,8 @@
 (1,5) expected-doctype-but-got-start-tag
 (1,50) unexpected-end-tag
 (1,53) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -606,6 +620,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,71) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -623,6 +639,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,83) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -640,6 +658,8 @@
 #errors
 (1,5) expected-doctype-but-got-start-tag
 (1,28) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -654,6 +674,8 @@
 (1,7) expected-doctype-but-got-start-tag
 (1,12) unexpected-start-tag-implies-table-voodoo
 (1,22) eof-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -668,6 +690,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,18) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -681,6 +705,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,22) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -694,6 +720,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,18) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -707,6 +735,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,22) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -720,6 +750,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,18) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -733,6 +765,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,22) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -746,6 +780,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,18) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -759,6 +795,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,22) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -772,6 +810,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,21) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -785,6 +825,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,25) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -798,6 +840,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,54) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -812,6 +856,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,144) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -832,6 +878,8 @@
 #errors
 (1,6) expected-doctype-but-got-start-tag
 (1,153) expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

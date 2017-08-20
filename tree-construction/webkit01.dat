@@ -2,6 +2,8 @@
 Test
 #errors
 (1,4): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -12,6 +14,8 @@ Test
 <div></div>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -22,6 +26,8 @@ Test
 <div>Test</div>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -36,6 +42,7 @@ Test
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:4) eof-in-tag
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -49,6 +56,8 @@ console.log("PASS");
 <div>Bye</div>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -70,6 +79,8 @@ console.log("PASS");
 <div foo="bar">Hello</div>
 #errors
 (1,15): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -86,6 +97,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <div>Bye</div>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -107,6 +120,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <foo bar="baz"></foo><potato quack="duck"></potato>
 #errors
 (1,15): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -120,6 +135,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <foo bar="baz"><potato quack="duck"></potato></foo>
 #errors
 (1,15): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -136,6 +153,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,21): attributes-in-end-tag
 (1,51): attributes-in-end-tag
 #new-errors
+(1:1) missing-doctype
 (1:21) end-tag-with-attributes
 (1:51) end-tag-with-attributes
 #document
@@ -152,6 +170,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,8): expected-doctype-but-got-eof
 #new-errors
 (1:3) invalid-first-character-of-tag-name
+(1:9) missing-doctype
 #document
 | <!--  tttt -->
 | <html>
@@ -162,6 +181,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <div FOO ><img><img></div>
 #errors
 (1,10): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -176,6 +197,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,13): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -195,6 +218,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1:8) unexpected-solidus-in-tag
 (1:9) unexpected-solidus-in-tag
 (1:17) unexpected-solidus-in-tag
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -210,6 +234,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,8): expected-tag-name
 (1,12): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:9) invalid-first-character-of-tag-name
 #document
 | <html>
@@ -222,6 +247,8 @@ console.log("FOO<span>BAR</span>BAZ");
 &lt;
 #errors
 (1,4): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -233,6 +260,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,16): expected-doctype-but-got-start-tag
 (1,42): unexpected-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -247,6 +276,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,21): attributes-in-end-tag
 (1,21): unexpected-end-tag-treated-as
 #new-errors
+(1:1) missing-doctype
 (1:21) end-tag-with-attributes
 #document
 | <html>
@@ -259,6 +289,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,26): expected-one-end-tag-but-got-another
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -275,6 +307,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,28): unexpected-end-tag-after-body
 (1,28): unexpected-end-tag-treated-as
 #new-errors
+(1:1) missing-doctype
 (1:28) end-tag-with-attributes
 #document
 | <html>
@@ -289,6 +322,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,12): expected-one-end-tag-but-got-another
 (1,26): unexpected-start-tag-after-body
 (1,26): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -301,6 +336,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <html><body></body></html><!-- Hi there -->
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -312,6 +349,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,27): expected-eof-but-got-char
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -324,6 +363,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,27): expected-eof-but-got-char
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -337,6 +378,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,27): expected-eof-but-got-char
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -350,6 +393,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,27): XXX-undefined-error
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -364,6 +409,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,27): XXX-undefined-error
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -377,6 +424,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <html><frameset><!--1--><noframes>A</noframes><!--2--></frameset><!--3--><noframes>B</noframes><!--4--></html><!--5--><noframes>C</noframes><!--6-->
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -402,6 +451,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,59): unexpected-select-in-select
 (1,93): unexpected-select-in-select
 (1,127): unexpected-select-in-select
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -429,6 +480,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <dd><dd><dt><dt><dd><li><li>
 #errors
 (1,4): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -448,6 +501,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,14): end-tag-too-early
 (1,32): unexpected-start-tag-implies-end-tag
 (1,32): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -465,6 +520,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <body></body>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -477,6 +534,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,21): unexpected-start-tag-out-of-my-head
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -494,6 +553,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,31): unexpected-start-tag-implies-table-voodoo
 (1,35): unexpected-table-element-start-tag-in-select-in-table
 (1,35): eof-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -515,6 +576,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,31): unexpected-start-tag-implies-table-voodoo
 (1,35): unexpected-table-element-start-tag-in-select-in-table
 (1,48): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -533,6 +596,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,41): adoption-agency-1.3
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -549,6 +614,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,6): expected-doctype-but-got-start-tag
 (1,10): unexpected-end-tag
 (1,41): adoption-agency-1.3
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -567,6 +634,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,29): unexpected-start-tag-implies-end-tag
 (1,29): adoption-agency-1.3
 (1,29): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -582,6 +651,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -595,6 +666,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,23): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -610,6 +683,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,5): expected-doctype-but-got-start-tag
 (1,22): unexpected-html-element-in-foreign-content
 (1,22): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -626,6 +701,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,15): expected-doctype-but-got-start-tag
 #new-errors
 (1:6) unexpected-character-in-attribute-name
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -641,6 +717,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,23): non-void-element-with-trailing-solidus
 (1,29): end-tag-too-early
 #new-errors
+(1:1) missing-doctype
 (1:9-1:24) non-void-html-element-start-tag-with-trailing-solidus
 #document
 | <html>
@@ -662,6 +739,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,5): expected-doctype-but-got-start-tag
 (1,9): unexpected-html-element-in-foreign-content
 (1,20): adoption-agency-1.3
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -673,6 +752,8 @@ console.log("FOO<span>BAR</span>BAZ");
 #data
 <table><tr><td><svg><desc><td></desc><circle>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -693,6 +774,8 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,17): unexpected-end-tag
 (1,17): unexpected-end-tag
 (1,21): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -705,6 +788,8 @@ console.log("FOO<span>BAR</span>BAZ");
 <math><mrow><mrow><mn>1</mn></mrow><mi>a</mi></mrow></math>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
