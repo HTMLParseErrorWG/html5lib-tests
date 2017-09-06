@@ -3,6 +3,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,20): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -15,6 +17,8 @@
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,21): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -29,6 +33,7 @@
 (1,7): expected-dashes-or-doctype
 (1,20): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:14) cdata-in-html-content
 #document
 | <html>
@@ -43,6 +48,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:18) eof-in-cdata
 #document
 | <html>
@@ -57,6 +63,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:18) eof-in-cdata
 #document
 | <html>
@@ -71,6 +78,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,14): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:15) eof-in-cdata
 #document
 | <html>
@@ -83,6 +91,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -94,6 +104,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,21): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -106,6 +118,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,21): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -119,6 +133,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,16): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:17) eof-in-cdata
 #document
 | <html>
@@ -133,6 +148,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,15): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:16) eof-in-cdata
 #document
 | <html>
@@ -147,6 +163,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:18) eof-in-cdata
 #document
 | <html>
@@ -198,6 +215,7 @@
 (1,27): expected-dashes-or-doctype
 (1,40): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:34) cdata-in-html-content
 #document
 | <html>
@@ -213,6 +231,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,22): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -225,6 +245,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,24): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -238,6 +260,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,20): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:21) eof-in-cdata
 #document
 | <html>
@@ -252,6 +275,7 @@
 (1,5): expected-doctype-but-got-start-tag
 (1,21): expected-closing-tag-but-got-eof
 #new-errors
+(1:1) missing-doctype
 (1:22) eof-in-cdata
 #document
 | <html>
@@ -265,6 +289,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,28): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -280,6 +306,8 @@
 (1,29): unexpected-end-tag
 (1,29): unexpected-end-tag
 (1,29): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -292,6 +320,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,33): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -305,6 +335,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,26): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -317,6 +349,8 @@
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,27): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

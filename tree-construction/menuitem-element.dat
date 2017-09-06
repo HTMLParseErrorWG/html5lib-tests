@@ -4,6 +4,8 @@
 10: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.
 10: End of file seen and there were open elements.
 10: Unclosed element “menuitem”.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -15,6 +17,8 @@
 #errors
 11: End tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.
 11: Stray end tag “menuitem”.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

@@ -2,6 +2,8 @@
 <body><template>Hello</template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -14,6 +16,8 @@ no doctype
 <template>Hello</template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -26,6 +30,8 @@ no doctype
 <template></template><div></div>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -38,6 +44,8 @@ no doctype
 <html><template>Hello</template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -50,6 +58,8 @@ no doctype
 <head><template><div></div></template></head>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -64,6 +74,8 @@ no doctype
  * (1,6) missing DOCTYPE
  * (1,38) mismatched template end tag
  * (1,41) unexpected end of file
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -82,6 +94,8 @@ no doctype
  * (1,22) unexpected token in template
  * (1,27) unexpected end of file in template
  * (1,27) unexpected end of file
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -96,6 +110,8 @@ no doctype
 #errors
  * (1,6) missing DOCTYPE
  * (1,17) unexpected template end tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -106,6 +122,8 @@ no doctype
 <table><template></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -121,6 +139,8 @@ no doctype
  * (1,35) unexpected token in table - foster parenting
  * (1,35) unexpected end tag
  * (1,35) unexpected end of file
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -136,6 +156,8 @@ no doctype
  * (1,13) unexpected token in table - foster parenting
  * (1,40) unexpected token in table - foster parenting
  * (1,40) unexpected end of file
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -152,6 +174,8 @@ no doctype
 bad div in table
 bad /div in table
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -165,6 +189,8 @@ eof in table
 <table>   <template></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -179,6 +205,8 @@ no doctype
 #errors
 no doctype
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -194,6 +222,8 @@ eof in table
 no doctype
 bad /tbody
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -207,6 +237,8 @@ eof in table
 <table><tbody><template></template></tbody></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -221,6 +253,8 @@ no doctype
 #errors
 no doctype
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -235,6 +269,8 @@ eof in table
 #errors
 no doctype
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -248,6 +284,8 @@ eof in table
 <select><template></template></select>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -260,6 +298,8 @@ no doctype
 <select><template><option></option></template></select>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -274,6 +314,8 @@ no doctype
 #errors
 no doctype
 bad /select
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -287,6 +329,8 @@ bad /select
 <select><template></template><option></select>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -300,6 +344,8 @@ no doctype
 <select><option><template></template></select>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -315,6 +361,8 @@ no doctype
 no doctype
 eof in template
 eof in select
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -329,6 +377,8 @@ eof in select
 no doctype
 eof in template
 eof in select
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -344,6 +394,8 @@ eof in select
 no doctype
 eof in template
 eof in select
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -358,6 +410,8 @@ eof in select
 <table><thead><template><td></template></table>
 #errors
  * (1,8) missing DOCTYPE
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -372,6 +426,8 @@ eof in select
 <table><template><thead></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -387,6 +443,8 @@ no doctype
 no doctype
 bad </tr>
 missing </div>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -402,6 +460,8 @@ missing </div>
 #errors
 no doctype
 bad /thead after /template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -415,6 +475,8 @@ bad /thead after /template
 <table><thead><template><tr></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -429,6 +491,8 @@ no doctype
 <table><template><tr></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -444,6 +508,8 @@ no doctype
 no doctype
 eof in template
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -459,6 +525,8 @@ eof in table
 <table><template><tr><template><td></template></tr></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -475,6 +543,8 @@ no doctype
 <table><template><tr><template><td></td></template></tr></template></table>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -492,6 +562,8 @@ no doctype
 #errors
 no doctype
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -505,6 +577,8 @@ eof in table
 <body><template><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -517,6 +591,8 @@ no doctype
 <body><template><template><tr></tr></template><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -534,6 +610,8 @@ no doctype
 no doctype
 eof in template
 eof in table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -551,6 +629,8 @@ eof in table
  * (1,21) unexpected start tag token
  * (1,36) unexpected end tag token
  * (1,47) unexpected end tag token
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -566,6 +646,8 @@ eof in table
  * (1,37) unexpected end tag
  * (1,44) unexpected start tag
  * (1,52) unexpected end tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -578,6 +660,8 @@ eof in table
 #errors
 no doctype
 bad frameset
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -593,6 +677,8 @@ bad frameset
 #errors
 no doctype
 bad frameset
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -607,6 +693,8 @@ bad frameset
 <body><template><script>var i = 1;</script><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -623,6 +711,8 @@ no doctype
 no doctype
 foster-parented div
 foster-parented /div
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -637,6 +727,8 @@ foster-parented /div
 #errors
 no doctype
 unexpected <td>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -652,6 +744,8 @@ unexpected <td>
 #errors
 no doctype
 bad </tr>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -666,6 +760,8 @@ bad </tr>
 #errors
 no doctype
 bad <tbody>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -681,6 +777,8 @@ bad <tbody>
  * (1,7) missing DOCTYPE
  * (1,35) unexpected start tag in table row
  * (1,45) unexpected end tag in table row
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -696,6 +794,8 @@ bad <tbody>
  * (1,7) missing DOCTYPE
  * (1,36) unexpected start tag in table row
  * (1,46) unexpected end tag in table row
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -710,6 +810,8 @@ bad <tbody>
 #errors
 no doctype
 bad </table>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -724,6 +826,8 @@ bad </table>
 #errors
 no doctype
 bad <tbody>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -738,6 +842,8 @@ bad <tbody>
 #errors
 no doctype
 bad <caption>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -752,6 +858,8 @@ bad <caption>
 #errors
 no doctype
 bad </table>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -765,6 +873,8 @@ bad </table>
 <body><template><thead></thead><caption></caption><tbody></tbody></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -780,6 +890,8 @@ no doctype
 #errors
 no doctype
 bad </table>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -795,6 +907,8 @@ bad </table>
 no doctype
 bad tr
 bad /tr
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -807,6 +921,8 @@ bad /tr
 <body><template><em>Hello</em></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -820,6 +936,8 @@ no doctype
 <body><template><!--comment--></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -832,6 +950,8 @@ no doctype
 <body><template><style></style><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -845,6 +965,8 @@ no doctype
 <body><template><meta><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -858,6 +980,8 @@ no doctype
 <body><template><link><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -871,6 +995,8 @@ no doctype
 <body><template><template><tr></tr></template><td></td></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -887,6 +1013,8 @@ no doctype
 #errors
 no doctype
 bad /col
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -903,6 +1031,8 @@ bad /col
 no doctype
 bad <body>
 bad </body>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -919,6 +1049,8 @@ bad </body>
 no doctype
 bad <html>
 missing end tags in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   a="b"
@@ -936,6 +1068,8 @@ no doctype
 bad /col
 bad html
 bad /col
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   a="b"
@@ -955,6 +1089,8 @@ bad /frame
 bad html
 bad frame
 bad /frame
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   a="b"
@@ -968,6 +1104,8 @@ bad /frame
 #errors
 no doctype
 unexpected <td>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -984,6 +1122,8 @@ unexpected <td>
 <body><template><thead></thead><template><tr></tr></template><tr></tr><tfoot></tfoot></template>
 #errors
 no doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1003,6 +1143,8 @@ no doctype
 #errors
 no doctype
 missing </b>
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1022,6 +1164,8 @@ missing </b>
 no doctype
 bad colgroup
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1036,6 +1180,8 @@ eof in template
 no doctype
 bogus /colgroup
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1049,6 +1195,8 @@ eof in template
 #errors
 no doctype
 bad colgroup
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1063,6 +1211,8 @@ bad colgroup
  * (1,7) missing DOCTYPE
  * (1,27) unexpected token
  * (1,27) unexpected end of file in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1077,6 +1227,8 @@ bad colgroup
 no doctype
 bad /div
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1091,6 +1243,8 @@ eof in template
 no doctype
 unexpected text
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1105,6 +1259,8 @@ eof in template
 no doctype
 mising /menu
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1124,6 +1280,8 @@ bogus /div
 bogus tr
 bogus /tr
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1141,6 +1299,8 @@ eof in template
  * (1,7) missing DOCTYPE
  * (1,28) unexpected token in template
  * (1,60) unexpected end of file
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1158,6 +1318,8 @@ eof in template
 no doctype
 bad /figcaption
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1173,6 +1335,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1187,6 +1351,8 @@ eof in template
 #errors
 no doctype
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1201,6 +1367,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1217,6 +1385,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1233,6 +1403,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1249,6 +1421,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1265,6 +1439,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1281,6 +1457,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1297,6 +1475,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1313,6 +1493,8 @@ eof in template
 no doctype
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1330,6 +1512,8 @@ eof in template
  * (1,36) unexpected token in table - foster parenting
  * (1,36) unexpected end of file in template
  * (1,36) unexpected end of file in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1350,6 +1534,8 @@ foster-parenting text o
 foster-parenting text o
 eof
 eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1368,6 +1554,8 @@ no doctype
 bad tag
 eof
 eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1384,6 +1572,8 @@ no doctype
 eof in script
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1402,6 +1592,8 @@ no doctype
 eof in style
 eof in template
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1419,6 +1611,8 @@ eof in template
 no doctype
 missing /table
 bad eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1434,6 +1628,8 @@ bad eof
 #errors
 no doctype
 bad eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1450,6 +1646,8 @@ bad eof
 no doctype
 missing /object
 bad eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1465,6 +1663,8 @@ bad eof
 #errors
 no doctype
 eof in template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1480,6 +1680,8 @@ eof in template
 no doctype
 ugly template closure
 bad eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1500,6 +1702,8 @@ no doctype
 bad end tag </dummy>
 eof in template
 eof in dummy
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1514,6 +1718,8 @@ eof in dummy
 #errors
 no doctype
 (1,62): unexpected-caption-in-select-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1535,6 +1741,8 @@ no doctype
 no doctype
 (1,23): template-after-body
 (1,24): eof-in-template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1548,6 +1756,8 @@ no doctype
 no doctype
 (1,23): template-after-head
 (1,24): eof-in-template
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1560,6 +1770,8 @@ no doctype
 #errors
 no doctype
 (1,23): template-after-head
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1593,6 +1805,8 @@ eof table
 #data
 <template><a><table><a>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

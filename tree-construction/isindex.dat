@@ -3,6 +3,8 @@
 #errors
 (1,9): expected-doctype-but-got-start-tag
 (1,9): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -14,6 +16,8 @@
 #errors
 (1,48): expected-doctype-but-got-start-tag
 (1,48): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -29,6 +33,8 @@
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,15): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

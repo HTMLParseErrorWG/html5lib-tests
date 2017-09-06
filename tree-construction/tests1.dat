@@ -2,6 +2,8 @@
 Test
 #errors
 (1,0): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -12,6 +14,8 @@ Test
 <p>One<p>Two
 #errors
 (1,3): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -25,6 +29,8 @@ Test
 Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,0): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -41,6 +47,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -50,6 +58,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <head>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -59,6 +69,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <body>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -68,6 +80,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -77,6 +91,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head></head>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -86,6 +102,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head></head><body>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -95,6 +113,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head></head><body></body>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -104,6 +124,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head><body></body></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -113,6 +135,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head></body></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -122,6 +146,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head><body></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -131,6 +157,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><body></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -140,6 +168,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <body></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -149,6 +179,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <head></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -158,6 +190,8 @@ Line1<br>Line2<br>Line3<br>Line4
 </head>
 #errors
 (1,7): expected-doctype-but-got-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -167,6 +201,8 @@ Line1<br>Line2<br>Line3<br>Line4
 </body>
 #errors
 (1,7): expected-doctype-but-got-end-tag element.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -176,6 +212,8 @@ Line1<br>Line2<br>Line3<br>Line4
 </html>
 #errors
 (1,7): expected-doctype-but-got-end-tag element.
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -188,6 +226,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,14): unexpected-cell-in-table-body
 (1,25): unexpected-cell-end-tag
 (1,25): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -207,6 +247,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,18): unexpected-end-tag
 (1,29): unexpected-cell-end-tag
 (1,30): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -225,6 +267,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,4): expected-doctype-but-got-start-tag
 (1,13): unexpected-start-tag
 (1,18): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -241,6 +285,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,10): unexpected-start-tag-implies-end-tag
 (1,10): adoption-agency-1.3
 (1,24): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -259,6 +305,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-start-tag
 (1,18): adoption-agency-1.3
 (1,21): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -292,6 +340,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,28): unexpected-end-tag
 (1,34): end-tag-too-early
 (1,35): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -309,6 +359,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,28): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -329,6 +381,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,17): expected-closing-tag-but-got-eof
 #new-errors
 (1:5) abrupt-closing-of-empty-comment
+(1:6) missing-doctype
 (1:17) abrupt-closing-of-empty-comment
 #document
 | <!--  -->
@@ -344,6 +397,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,11): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -360,6 +415,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,27): unexpected-select-in-select
 (1,39): unexpected-end-tag
 (1,48): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -381,6 +438,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,43): unexpected-end-tag
 (1,63): unexpected-start-tag-implies-end-tag
 (1,64): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -408,6 +467,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,15): unexpected-start-tag-implies-end-tag
 (1,15): adoption-agency-1.3
 (1,16): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -441,6 +502,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,48): unexpected-cell-in-table-body
 (1,63): unexpected-cell-end-tag
 (1,71): eof-in-table
+#new-errors
+(1:9) missing-doctype
 #document
 | <!-- - -->
 | <html>
@@ -503,6 +566,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,1): expected-doctype-but-got-chars
 #new-errors
 (1:2) eof-before-tag-name
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -516,6 +580,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,1): expected-doctype-but-got-chars
 #new-errors
 (1:2) invalid-first-character-of-tag-name
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -529,6 +594,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,2): expected-doctype-but-got-chars
 #new-errors
 (1:3) eof-before-tag-name
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -542,6 +608,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:3) invalid-first-character-of-tag-name
+(1:1) missing-doctype
 #document
 | <!-- # -->
 | <html>
@@ -555,6 +622,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,2): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
+(1:1) missing-doctype
 #document
 | <!-- ? -->
 | <html>
@@ -568,6 +636,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
+(1:1) missing-doctype
 #document
 | <!-- ?# -->
 | <html>
@@ -581,6 +650,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,2): expected-doctype-but-got-eof
 #new-errors
 (1:3) incorrectly-opened-comment
+(1:1) missing-doctype
 #document
 | <!--  -->
 | <html>
@@ -594,6 +664,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:3) incorrectly-opened-comment
+(1:1) missing-doctype
 #document
 | <!-- # -->
 | <html>
@@ -607,6 +678,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,11): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
+(1:12) missing-doctype
 #document
 | <!-- ?COMMENT? -->
 | <html>
@@ -620,6 +692,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,10): expected-doctype-but-got-eof
 #new-errors
 (1:3) incorrectly-opened-comment
+(1:11) missing-doctype
 #document
 | <!-- COMMENT -->
 | <html>
@@ -633,6 +706,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,12): expected-doctype-but-got-eof
 #new-errors
 (1:3) invalid-first-character-of-tag-name
+(1:13) missing-doctype
 #document
 | <!--  COMMENT  -->
 | <html>
@@ -646,6 +720,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,13): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
+(1:14) missing-doctype
 #document
 | <!-- ?COM--MENT? -->
 | <html>
@@ -659,6 +734,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,12): expected-doctype-but-got-eof
 #new-errors
 (1:3) incorrectly-opened-comment
+(1:13) missing-doctype
 #document
 | <!-- COM--MENT -->
 | <html>
@@ -672,6 +748,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,14): expected-doctype-but-got-eof
 #new-errors
 (1:3) invalid-first-character-of-tag-name
+(1:15) missing-doctype
 #document
 | <!--  COM--MENT  -->
 | <html>
@@ -709,6 +786,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,10): adoption-agency-1.3
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -724,6 +803,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,8): expected-doctype-but-got-start-tag
 (1,19): unexpected-end-tag
 (1,23): adoption-agency-1.2
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -742,6 +823,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,23): unexpected-end-tag
 (1,27): adoption-agency-1.2
 (1,31): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -789,6 +872,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,29): adoption-agency-1.3
 (1,29): adoption-agency-1.3
 (1,34): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -808,6 +893,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-start-tag
 (1,11): unexpected-end-tag
 (1,15): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -820,6 +907,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -837,6 +926,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-start-tag
 (1,24): unexpected-end-tag
 (1,25): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -854,6 +945,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-start-tag
 (1,21): adoption-agency-1.3
 (1,22): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -871,6 +964,8 @@ Line1<br>Line2<br>Line3<br>Line4
 
 #errors
 (1,0): expected-doctype-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -881,6 +976,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,5): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -892,6 +989,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,9): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -904,6 +1003,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,13): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -917,6 +1018,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,17): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -931,6 +1034,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,21): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -946,6 +1051,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,25): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -962,6 +1069,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,29): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -979,6 +1088,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,5): expected-doctype-but-got-start-tag
 (1,33): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -998,6 +1109,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,5): expected-doctype-but-got-start-tag
 (1,38): adoption-agency-1.3
 (1,38): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1019,6 +1132,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,5): expected-doctype-but-got-start-tag
 (1,38): adoption-agency-1.3
 (1,42): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1042,6 +1157,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,38): adoption-agency-1.3
 (1,47): adoption-agency-1.3
 (1,47): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1066,6 +1183,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,38): adoption-agency-1.3
 (1,47): adoption-agency-1.3
 (1,51): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1091,6 +1210,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,38): adoption-agency-1.3
 (1,47): adoption-agency-1.3
 (1,56): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1116,6 +1237,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,38): adoption-agency-1.3
 (1,47): adoption-agency-1.3
 (1,60): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1140,6 +1263,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,1040): expected-doctype-but-got-start-tag
 (1,1040): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1158,6 +1283,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,45): foster-parenting-character-in-table
 (1,68): foster-parenting-character-in-table
 (1,71): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1186,6 +1313,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,54): unexpected-cell-end-tag
 (1,68): unexpected text in table
 (1,71): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1213,6 +1342,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,54): unexpected-cell-end-tag
 (1,68): foster-parenting-character-in-table
 (1,71): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1240,6 +1371,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,10): expected-doctype-but-got-start-tag
 (1,45): end-tag-too-early
 (1,47): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1261,6 +1394,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,28): adoption-agency-1.3
 (1,49): adoption-agency-1.3
 (1,49): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1288,6 +1423,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <title><meta></title><link><title><meta></title>
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1302,6 +1439,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <style><!--</style><meta><script>--><link></script>
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1317,6 +1456,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,25): unexpected-start-tag-out-of-my-head
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1330,6 +1471,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,7): expected-doctype-but-got-start-tag
 (1,33): unexpected-cell-end-tag
 (1,48): unexpected-cell-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1351,6 +1494,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,6): expected-doctype-but-got-start-tag
 (1,12): unexpected-start-tag
 (1,54): unexpected-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1366,6 +1511,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <textarea><p></textarea>
 #errors
 (1,10): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1378,6 +1525,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,10): unexpected-start-tag-treated-as
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1398,6 +1547,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,35): unexpected-start-tag-implies-end-tag
 (1,35): adoption-agency-1.2
 (1,35): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1415,6 +1566,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,10): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1427,6 +1580,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,19): expected-eof-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1441,6 +1596,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,14): unexpected-cell-in-table-body
 (1,25): unexpected-cell-end-tag
 (1,25): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1460,6 +1617,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,18): unexpected-end-tag
 (1,29): unexpected-cell-end-tag
 (1,29): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1477,6 +1636,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,4): expected-doctype-but-got-start-tag
 (1,8): unexpected-start-tag
 (1,8): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1491,6 +1652,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,9): unexpected-start-tag-implies-end-tag
 (1,9): adoption-agency-1.3
 (1,21): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1506,6 +1669,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-start-tag
 (1,15): adoption-agency-1.3
 (1,28): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1523,6 +1688,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,28): unexpected-end-tag
 (1,34): end-tag-too-early
 (1,34): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1539,6 +1706,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,23): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1553,6 +1722,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,3): expected-doctype-but-got-start-tag
 (1,11): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1569,6 +1740,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,27): unexpected-select-in-select
 (1,39): unexpected-end-tag
 (1,48): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1581,6 +1754,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <html><head><title></title><body></body></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1600,6 +1775,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,54): unexpected-start-tag-implies-end-tag
 (1,54): adoption-agency-1.2
 (1,54): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1622,6 +1799,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,45): end-tag-too-early
 (1,58): end-tag-too-early
 (1,69): adoption-agency-1.3
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1645,6 +1824,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,4): expected-doctype-but-got-start-tag
 (1,17): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1659,6 +1840,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <frameset><frame><frameset><frame></frameset><noframes></noframes></frameset>
 #errors
 (1,10): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1676,6 +1859,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,27): unexpected-cell-end-tag
 (1,31): unexpected-start-tag
 (1,36): end-tag-too-early
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1692,6 +1877,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <table><colgroup><col><colgroup><col><col><col><colgroup><col><col><thead><tr><td></table>
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1716,6 +1903,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,7): expected-doctype-but-got-start-tag
 (1,37): unexpected-cell-in-table-body
 (1,55): unexpected-start-tag-ignored
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1742,6 +1931,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,7): expected-doctype-but-got-start-tag
 (1,52): unexpected-cell-in-table-body
 (1,80): unexpected-start-tag-ignored
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1846,6 +2037,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,599): unexpected-end-tag
 (1,611): unexpected-end-tag
 (1,622): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1967,6 +2160,8 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,610): unexpected-end-tag
 (1,622): unexpected-end-tag
 (1,633): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -1982,6 +2177,8 @@ Line1<br>Line2<br>Line3<br>Line4
 #errors
 (1,10): expected-doctype-but-got-start-tag
 (1,10): eof-in-frameset
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

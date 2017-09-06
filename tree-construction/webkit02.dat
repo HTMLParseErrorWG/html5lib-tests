@@ -3,6 +3,8 @@
 #errors
 (1,14): expected-doctype-but-got-start-tag
 (1,14): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -15,6 +17,8 @@
 #errors
 (1,15): expected-doctype-but-got-start-tag
 #script-on
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -31,6 +35,8 @@
 #errors
 (1,15): expected-doctype-but-got-start-tag
 #script-off
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -47,6 +53,8 @@
 <div><sarcasm><div></div></sarcasm></div>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -61,6 +69,7 @@
 (1,6): expected-doctype-but-got-start-tag
 (1,67): eof-in-attribute-value-double-quote
 #new-errors
+(1:1) missing-doctype
 (1:68) eof-in-tag
 #document
 | <html>
@@ -74,6 +83,8 @@
 (1,11): unexpected-cell-in-table-body
 (1,20): foster-parenting-character
 (1,20): eof-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -91,6 +102,8 @@
 (1,11): unexpected-cell-in-table-body
 (1,19): XXX-undefined-error
 (1,20): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -108,6 +121,8 @@
 (1,11): unexpected-cell-in-table-body
 (1,19): XXX-undefined-error
 (1,20): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -125,6 +140,8 @@
 (1,18): unexpected-cell-in-table-body
 (1,26): XXX-undefined-error
 (1,27): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -138,6 +155,8 @@
 #data
 <legend>test</legend>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -148,6 +167,8 @@
 #data
 <table><input>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -158,6 +179,8 @@
 #data
 <b><em><foo><foo><aside></b>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -173,6 +196,8 @@
 #data
 <b><em><foo><foo><aside></b></em>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -189,6 +214,8 @@
 #data
 <b><em><foo><foo><foo><aside></b>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -204,6 +231,8 @@
 #data
 <b><em><foo><foo><foo><aside></b></em>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -269,6 +298,8 @@ select
 #data
 <svg><foreignObject><div>foo</div><plaintext></foreignObject></svg><div>bar</div>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -283,6 +314,8 @@ select
 #data
 <svg><foreignObject></foreignObject><title></svg>foo
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -295,6 +328,8 @@ select
 #data
 </foreignObject><plaintext><div>foo</div>
 #errors
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

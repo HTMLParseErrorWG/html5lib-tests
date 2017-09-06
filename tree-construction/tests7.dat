@@ -321,6 +321,8 @@ html
 (1,5): expected-doctype-but-got-start-tag
 (1,13): unexpected-end-tag
 (1,15): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -333,6 +335,8 @@ html
 <table><tr><td><code></code> </table>
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -353,6 +357,8 @@ html
 (1,33): foster-parenting-character
 (1,34): foster-parenting-character
 (1,45): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -376,6 +382,8 @@ A<table><tr> B</tr> B</table>
 (1,14): foster-parenting-character
 (1,20): foster-parenting-character
 (1,21): foster-parenting-character
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -395,6 +403,8 @@ A<table><tr> B</tr> </em>C</table>
 (1,25): unexpected-end-tag
 (1,25): unexpected-end-tag-in-special-element
 (1,26): foster-parenting-character
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -410,6 +420,8 @@ A<table><tr> B</tr> </em>C</table>
 #errors
 (1,8): expected-doctype-but-got-start-tag
 (1,16): unexpected-input-in-select
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

@@ -4,6 +4,8 @@
 (1,7): expected-doctype-but-got-start-tag
 (1,11): unexpected-cell-in-table-body
 (1,11): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -19,6 +21,8 @@
 (1,7): expected-doctype-but-got-start-tag
 (1,11): unexpected-cell-in-table-body
 (1,11): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -33,6 +37,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,22): eof-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -51,6 +57,8 @@
 (1,27): foster-parenting-character-in-table
 (1,27): foster-parenting-character-in-table
 (1,27): eof-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -63,6 +71,8 @@
 <table></table><p>foo
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -88,6 +98,8 @@
 (1,87): unexpected-end-tag
 (1,91): unexpected-cell-in-table-body
 (1,91): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -102,6 +114,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,15): unexpected-start-tag-implies-table-voodoo
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -120,6 +134,8 @@
 (1,22): unexpected-start-tag-implies-end-tag
 (1,39): unexpected-end-tag
 (1,47): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -134,6 +150,8 @@
 (1,7): expected-doctype-but-got-start-tag
 (1,15): unexpected-start-tag-implies-table-voodoo
 (1,23): unexpected-table-element-end-tag-in-select-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -147,6 +165,8 @@
 (1,7): expected-doctype-but-got-start-tag
 (1,15): unexpected-start-tag-implies-table-voodoo
 (1,28): unexpected-table-element-start-tag-in-select-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -171,6 +191,8 @@
 (1,45): unexpected-end-tag
 (1,52): unexpected-end-tag
 (1,55): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -186,6 +208,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,11): unexpected-cell-in-table-body
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -202,6 +226,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,20): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -223,6 +249,8 @@
 (1,57): unexpected-end-tag-in-table-row
 (1,62): unexpected-end-tag-in-table-row
 (1,69): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -239,6 +267,8 @@
 (1,7): expected-doctype-but-got-start-tag
 (1,11): unexpected-cell-in-table-body
 (1,15): eof-in-table
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -256,6 +286,8 @@
 (1,11): unexpected-cell-in-table-body
 (1,23): unexpected-cell-end-tag
 (1,23): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -273,6 +305,8 @@
 (1,7): expected-doctype-but-got-start-tag
 (1,30): unexpected-cell-end-tag
 (1,30): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

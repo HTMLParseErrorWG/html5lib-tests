@@ -3,6 +3,8 @@
 #errors
 (1,9): expected-doctype-but-got-start-tag
 (1,9): expected-closing-tag-but-got-eof
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -17,6 +19,7 @@
 (1,16): expected-closing-tag-but-got-eof
 #new-errors
 (1:9) unexpected-character-in-attribute-name
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -34,6 +37,7 @@
 #new-errors
 (1:10) unexpected-character-in-unquoted-attribute-value
 (1:14) unexpected-character-in-unquoted-attribute-value
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -49,6 +53,7 @@
 (1,14): expected-closing-tag-but-got-eof
 #new-errors
 (1:7) unexpected-character-in-attribute-name
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -60,6 +65,8 @@
 <a href='\nbar'></a>
 #errors
 (1,16): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -80,6 +87,8 @@
 &lang;&rang;
 #errors
 (1,6): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -90,6 +99,8 @@
 &apos;
 #errors
 (1,6): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -100,6 +111,8 @@
 &ImaginaryI;
 #errors
 (1,12): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -110,6 +123,8 @@
 &Kopf;
 #errors
 (1,6): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -120,6 +135,8 @@
 &notinva;
 #errors
 (1,9): expected-doctype-but-got-chars
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -133,6 +150,7 @@
 (1,47): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
+(1:48) missing-doctype
 #document
 | <!-- ?import namespace="foo" implementation="#bar" -->
 | <html>
@@ -144,6 +162,8 @@
 #errors
 (1,10): unexpected-char-in-comment
 (1,15): expected-doctype-but-got-eof
+#new-errors
+(1:16) missing-doctype
 #document
 | <!-- foo--bar -->
 | <html>
@@ -157,6 +177,7 @@
 (1,13): expected-doctype-but-got-eof
 #new-errors
 (1:9) cdata-in-html-content
+(1:14) missing-doctype
 #document
 | <!-- [CDATA[x]] -->
 | <html>
@@ -168,6 +189,8 @@
 #errors
 (1,10): expected-doctype-but-got-start-tag
 (1,39): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -180,6 +203,8 @@
 <textarea><!--</textarea>-->
 #errors
 (1,10): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -193,6 +218,8 @@
 #errors
 (1,7): expected-doctype-but-got-start-tag
 (1,30): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -205,6 +232,8 @@
 <style><!--</style>-->
 #errors
 (1,7): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -217,6 +246,8 @@
 <ul><li>A </li> <li>B</li></ul>
 #errors
 (1,4): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -239,6 +270,8 @@
 (1,46): unexpected-end-tag
 (1,51): unexpected-start-tag-implies-table-voodoo
 (1,57): unexpected-end-tag-implies-table-voodoo
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -256,6 +289,8 @@
 (1,3): expected-doctype-but-got-start-tag
 (1,15): adoption-agency-1.3
 (1,20): adoption-agency-1.3
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -275,6 +310,8 @@
 <div></div>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -285,6 +322,8 @@
 <svg></svg>
 #errors
 (1,5): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -295,6 +334,8 @@
 <math></math>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>

@@ -183,6 +183,8 @@
 <html><ruby>a<rb>b<rt></ruby></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -197,6 +199,8 @@
 <html><ruby>a<rp>b<rt></ruby></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -211,6 +215,8 @@
 <html><ruby>a<rt>b<rt></ruby></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -225,6 +231,8 @@
 <html><ruby>a<rtc>b<rt>c<rb>d</ruby></html>
 #errors
 (1,6): expected-doctype-but-got-start-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -579,6 +587,8 @@
 #errors
 (1,6): expected-doctype-but-got-start-tag
 (1,49): unexpected-doctype
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -969,6 +979,8 @@
 (1,6): expected-doctype-but-got-start-tag
 (1,19): unexpected-start-tag
 (1,30): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
@@ -981,6 +993,8 @@
 (1,6): expected-doctype-but-got-start-tag
 (1,19): unexpected-start-tag
 (1,30): unexpected-end-tag
+#new-errors
+(1:1) missing-doctype
 #document
 | <html>
 |   <head>
