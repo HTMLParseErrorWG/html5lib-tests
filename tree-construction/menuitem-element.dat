@@ -169,6 +169,8 @@
 <!DOCTYPE html><head></menuitem>
 #errors
 26: Stray end tag “menuitem”.
+#new-errors
+(1:22-1:33) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>

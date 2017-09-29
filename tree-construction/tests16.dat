@@ -1043,6 +1043,8 @@
 <!doctype html><style>...<style><!--...</style><!-- --></style>
 #errors
 (1,63): unexpected-end-tag
+#new-errors
+(1:56-1:64) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>
@@ -2436,6 +2438,7 @@
 (1,48): unexpected-end-tag
 #new-errors
 (1:1) missing-doctype
+(1:41-1:49) end-tag-without-matching-open-element
 #document
 | <html>
 |   <head>
