@@ -28,6 +28,8 @@
 <!doctype html><head></head></p><!--foo-->
 #errors
 (1,32): unexpected-end-tag
+#new-errors
+(1:29-1:33) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>

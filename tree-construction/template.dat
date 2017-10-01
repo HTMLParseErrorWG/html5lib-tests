@@ -1766,6 +1766,7 @@ no doctype
 (1,24): eof-in-template
 #new-errors
 (1:1) missing-doctype
+(1:14-1:24) abandoned-head-element-child
 #document
 | <html>
 |   <head>
@@ -1780,6 +1781,7 @@ no doctype
 (1,23): template-after-head
 #new-errors
 (1:1) missing-doctype
+(1:14-1:24) abandoned-head-element-child
 #document
 | <html>
 |   <head>

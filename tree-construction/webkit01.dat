@@ -536,6 +536,7 @@ console.log("FOO<span>BAR</span>BAZ");
 (1,21): unexpected-start-tag-out-of-my-head
 #new-errors
 (1:1) missing-doctype
+(1:15-1:22) abandoned-head-element-child
 #document
 | <html>
 |   <head>
