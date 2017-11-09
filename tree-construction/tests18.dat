@@ -59,7 +59,7 @@
 54: End of file seen and there were open elements.
 42: Unclosed element “plaintext”.
 #new-errors
-(1:32-1:43) disallowed-content-in-noscript
+(1:32-1:43) disallowed-content-in-noscript-in-head
 #document
 | <!DOCTYPE html>
 | <html>

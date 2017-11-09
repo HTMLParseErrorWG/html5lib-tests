@@ -171,7 +171,7 @@ Line: 1 Col: 21 Unexpected end tag (br). Treated as br element.
 Line: 1 Col: 42 Unexpected end tag (noscript). Ignored.
 #new-errors
 (1:1) missing-doctype
-(1:17-1:22) disallowed-content-in-noscript
+(1:17-1:22) disallowed-content-in-noscript-in-head
 #document
 | <html>
 |   <head>
@@ -235,7 +235,7 @@ Line: 1 Col: 19 Element p not allowed in a inhead-noscript context
 Line: 1 Col: 40 Unexpected end tag (noscript). Ignored.
 #new-errors
 (1:1) missing-doctype
-(1:17-1:20) disallowed-content-in-noscript
+(1:17-1:20) disallowed-content-in-noscript-in-head
 #document
 | <html>
 |   <head>
@@ -254,7 +254,7 @@ Line: 1 Col: 30 Unexpected end tag (noscript). Ignored.
 Line: 1 Col: 37 Unexpected end tag (head). Ignored.
 #new-errors
 (1:1) missing-doctype
-(1:17-1:20) disallowed-content-in-noscript
+(1:17-1:20) disallowed-content-in-noscript-in-head
 #document
 | <html>
 |   <head>
