@@ -15,6 +15,8 @@
 <!doctype html><html></p><!--foo-->
 #errors
 (1,25): end-tag-after-implied-root
+#new-errors
+(1:22-1:26) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>
@@ -26,6 +28,8 @@
 <!doctype html><head></head></p><!--foo-->
 #errors
 (1,32): unexpected-end-tag
+#new-errors
+(1:29-1:33) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>

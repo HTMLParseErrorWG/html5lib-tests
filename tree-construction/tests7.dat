@@ -26,6 +26,8 @@
 <!doctype html><head></head><title>X</title>
 #errors
 (1,35): unexpected-start-tag-out-of-my-head
+#new-errors
+(1:29-1:36) abandoned-head-element-child
 #document
 | <!DOCTYPE html>
 | <html>
@@ -38,6 +40,8 @@
 <!doctype html></head><title>X</title>
 #errors
 (1,29): unexpected-start-tag-out-of-my-head
+#new-errors
+(1:23-1:30) abandoned-head-element-child
 #document
 | <!DOCTYPE html>
 | <html>

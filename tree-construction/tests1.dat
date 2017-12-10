@@ -361,6 +361,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,28): unexpected-end-tag
 #new-errors
 (1:1) missing-doctype
+(1:23-1:29) end-tag-without-matching-open-element
 #document
 | <html>
 |   <head>
@@ -1458,6 +1459,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,25): unexpected-start-tag-out-of-my-head
 #new-errors
 (1:1) missing-doctype
+(1:20-1:26) abandoned-head-element-child
 #document
 | <html>
 |   <head>
@@ -1568,6 +1570,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,10): unexpected-end-tag
 #new-errors
 (1:1) missing-doctype
+(1:7-1:11) end-tag-without-matching-open-element
 #document
 | <html>
 |   <head>
@@ -1708,6 +1711,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,23): unexpected-end-tag
 #new-errors
 (1:1) missing-doctype
+(1:18-1:24) end-tag-without-matching-open-element
 #document
 | <html>
 |   <head>

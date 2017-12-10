@@ -2,6 +2,8 @@
 <!doctype html></head> <head>
 #errors
 (1,29): unexpected-start-tag
+#new-errors
+(1:24-1:30) misplaced-start-tag-for-head-element
 #document
 | <!DOCTYPE html>
 | <html>

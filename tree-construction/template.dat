@@ -76,6 +76,7 @@ no doctype
  * (1,41) unexpected end of file
 #new-errors
 (1:1) missing-doctype
+(1:27-1:38) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   <head>
@@ -112,6 +113,7 @@ no doctype
  * (1,17) unexpected template end tag
 #new-errors
 (1:1) missing-doctype
+(1:6-1:17) end-tag-without-matching-open-element
 #document
 | <html>
 |   <head>
@@ -445,6 +447,7 @@ bad </tr>
 missing </div>
 #new-errors
 (1:1) missing-doctype
+(1:38-1:49) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   <head>
@@ -1051,6 +1054,7 @@ bad <html>
 missing end tags in template
 #new-errors
 (1:1) missing-doctype
+(1:42-1:53) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   a="b"
@@ -1145,6 +1149,7 @@ no doctype
 missing </b>
 #new-errors
 (1:1) missing-doctype
+(1:51-1:62) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   <head>
@@ -1613,6 +1618,7 @@ missing /table
 bad eof
 #new-errors
 (1:1) missing-doctype
+(1:18-1:29) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   <head>
@@ -1648,6 +1654,7 @@ missing /object
 bad eof
 #new-errors
 (1:1) missing-doctype
+(1:19-1:30) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   <head>
@@ -1682,6 +1689,7 @@ ugly template closure
 bad eof
 #new-errors
 (1:1) missing-doctype
+(1:51-1:62) closing-of-element-with-open-child-elements
 #document
 | <html>
 |   <head>
@@ -1758,6 +1766,7 @@ no doctype
 (1,24): eof-in-template
 #new-errors
 (1:1) missing-doctype
+(1:14-1:24) abandoned-head-element-child
 #document
 | <html>
 |   <head>
@@ -1772,6 +1781,7 @@ no doctype
 (1,23): template-after-head
 #new-errors
 (1:1) missing-doctype
+(1:14-1:24) abandoned-head-element-child
 #document
 | <html>
 |   <head>

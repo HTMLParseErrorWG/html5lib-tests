@@ -6,6 +6,7 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 31 Unexpected DOCTYPE. Ignored.
 #new-errors
 (1:1) missing-doctype
+(1:17-1:32) misplaced-doctype
 #document
 | <html>
 |   <head>
@@ -170,6 +171,7 @@ Line: 1 Col: 21 Unexpected end tag (br). Treated as br element.
 Line: 1 Col: 42 Unexpected end tag (noscript). Ignored.
 #new-errors
 (1:1) missing-doctype
+(1:17-1:22) disallowed-content-in-noscript-in-head
 #document
 | <html>
 |   <head>
@@ -186,6 +188,7 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 34 Unexpected start tag (head).
 #new-errors
 (1:1) missing-doctype
+(1:17-1:35) misplaced-start-tag-for-head-element
 #document
 | <html>
 |   <head>
@@ -201,6 +204,7 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 34 Unexpected start tag (noscript).
 #new-errors
 (1:1) missing-doctype
+(1:17-1:39) nested-noscript-in-head
 #document
 | <html>
 |   <head>
@@ -216,6 +220,7 @@ Line: 1 Col: 6 Unexpected start tag (head). Expected DOCTYPE.
 Line: 1 Col: 20 Unexpected end tag (p). Ignored.
 #new-errors
 (1:1) missing-doctype
+(1:17-1:21) end-tag-without-matching-open-element
 #document
 | <html>
 |   <head>
@@ -232,6 +237,7 @@ Line: 1 Col: 19 Element p not allowed in a inhead-noscript context
 Line: 1 Col: 40 Unexpected end tag (noscript). Ignored.
 #new-errors
 (1:1) missing-doctype
+(1:17-1:20) disallowed-content-in-noscript-in-head
 #document
 | <html>
 |   <head>
@@ -250,6 +256,7 @@ Line: 1 Col: 30 Unexpected end tag (noscript). Ignored.
 Line: 1 Col: 37 Unexpected end tag (head). Ignored.
 #new-errors
 (1:1) missing-doctype
+(1:17-1:20) disallowed-content-in-noscript-in-head
 #document
 | <html>
 |   <head>
@@ -266,6 +273,7 @@ Line: 1 Col: 37 Unexpected end tag (head). Ignored.
 (1,6): eof-in-head-noscript
 #new-errors
 (1:1) missing-doctype
+(1:17) open-elements-left-after-eof
 #document
 | <html>
 |   <head>

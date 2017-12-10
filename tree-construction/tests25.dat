@@ -194,6 +194,8 @@ eof
 <!DOCTYPE html><head></keygen>A
 #errors
 30: Stray end tag “keygen”.
+#new-errors
+(1:22-1:31) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>
@@ -205,6 +207,8 @@ eof
 <!DOCTYPE html><head></head></keygen>A
 #errors
 30: Stray end tag “keygen”.
+#new-errors
+(1:29-1:38) end-tag-without-matching-open-element
 #document
 | <!DOCTYPE html>
 | <html>
