@@ -240,7 +240,7 @@
 (1,8): expected-doctype-but-got-eof
 #new-errors
 (1:9) eof-in-tag
-(1:1) missing-doctype
+(1:9) missing-doctype
 #document
 | <html>
 |   <head>

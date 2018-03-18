@@ -69,7 +69,7 @@
 (1,6): expected-doctype-but-got-eof
 #new-errors
 (1:7) eof-in-comment
-(1:1) missing-doctype
+(1:7) missing-doctype
 #document
 | <!-- -x -->
 | <html>
