@@ -760,6 +760,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <!DOCTYPE html><style> EOF
 #errors
 (1,26): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:27) eof-in-element-that-can-contain-only-text
 #document
 | <!DOCTYPE html>
 | <html>

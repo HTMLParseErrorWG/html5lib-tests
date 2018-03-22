@@ -225,6 +225,8 @@
 #errors
 (1,31): expected-named-closing-tag-but-got-eof
 (1,31): expected-closing-tag-but-got-eof
+#new-errors
+(1:32) eof-in-element-that-can-contain-only-text
 #document
 | <!DOCTYPE html>
 | <html>

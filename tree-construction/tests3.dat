@@ -200,6 +200,7 @@ A"
 (1,35): expected-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:36) eof-in-element-that-can-contain-only-text
 #document
 | <html>
 |   <head>
@@ -214,6 +215,7 @@ A"
 (1,30): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:31) eof-in-element-that-can-contain-only-text
 #document
 | <html>
 |   <head>
