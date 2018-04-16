@@ -80,6 +80,7 @@ FOO<script type="text/plain"></scriptx>BAR
 (1,42): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:43) eof-in-element-that-can-contain-only-text
 #document
 | <html>
 |   <head>
@@ -248,6 +249,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt>'</script>BAR
 (1,56): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:57) eof-in-element-that-can-contain-only-text
 (1:57) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -266,6 +268,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt> -'</script>BAR
 (1,58): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:59) eof-in-element-that-can-contain-only-text
 (1:59) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -284,6 +287,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt> --'</script>BAR
 (1,59): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:60) eof-in-element-that-can-contain-only-text
 (1:60) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -317,6 +321,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt> --!>'</script>BAR
 (1,61): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:62) eof-in-element-that-can-contain-only-text
 (1:62) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -335,6 +340,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt> -- >'</script>BAR
 (1,61): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:62) eof-in-element-that-can-contain-only-text
 (1:62) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -353,6 +359,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt '</script>BAR
 (1,56): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:57) eof-in-element-that-can-contain-only-text
 (1:57) eof-in-script-html-comment-like-text
 #document
 | <html>
@@ -371,6 +378,7 @@ FOO<script type="text/plain">'<!-- <sCrIpt/'</script>BAR
 (1,56): expected-named-closing-tag-but-got-eof
 #new-errors
 (1:1) missing-doctype
+(1:57) eof-in-element-that-can-contain-only-text
 (1:57) eof-in-script-html-comment-like-text
 #document
 | <html>

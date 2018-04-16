@@ -199,6 +199,7 @@
 (1,99): eof-in-frameset
 #new-errors
 (1:1) missing-doctype
+(1:100) eof-in-element-that-can-contain-only-text
 #document
 | <html>
 |   <head>

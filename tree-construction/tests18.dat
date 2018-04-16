@@ -461,6 +461,8 @@
 <!doctype html><frameset></frameset><noframes>abc
 #errors
 (1,49): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:50) eof-in-element-that-can-contain-only-text
 #document
 | <!DOCTYPE html>
 | <html>
@@ -485,6 +487,8 @@
 <!doctype html><frameset></frameset></html><noframes>abc
 #errors
 (1,56): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:57) eof-in-element-that-can-contain-only-text
 #document
 | <!DOCTYPE html>
 | <html>

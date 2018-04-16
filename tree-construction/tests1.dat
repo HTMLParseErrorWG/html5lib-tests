@@ -609,7 +609,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:3) invalid-first-character-of-tag-name
-(1:1) missing-doctype
+(1:4) missing-doctype
 #document
 | <!-- # -->
 | <html>
@@ -623,7 +623,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,2): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
-(1:1) missing-doctype
+(1:3) missing-doctype
 #document
 | <!-- ? -->
 | <html>
@@ -637,7 +637,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:2) unexpected-question-mark-instead-of-tag-name
-(1:1) missing-doctype
+(1:4) missing-doctype
 #document
 | <!-- ?# -->
 | <html>
@@ -651,7 +651,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,2): expected-doctype-but-got-eof
 #new-errors
 (1:3) incorrectly-opened-comment
-(1:1) missing-doctype
+(1:3) missing-doctype
 #document
 | <!--  -->
 | <html>
@@ -665,7 +665,7 @@ Line1<br>Line2<br>Line3<br>Line4
 (1,3): expected-doctype-but-got-eof
 #new-errors
 (1:3) incorrectly-opened-comment
-(1:1) missing-doctype
+(1:4) missing-doctype
 #document
 | <!-- # -->
 | <html>
@@ -760,6 +760,8 @@ Line1<br>Line2<br>Line3<br>Line4
 <!DOCTYPE html><style> EOF
 #errors
 (1,26): expected-named-closing-tag-but-got-eof
+#new-errors
+(1:27) eof-in-element-that-can-contain-only-text
 #document
 | <!DOCTYPE html>
 | <html>

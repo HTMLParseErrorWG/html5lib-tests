@@ -1579,6 +1579,7 @@ eof in template
 eof in template
 #new-errors
 (1:1) missing-doctype
+(1:34) eof-in-element-that-can-contain-only-text
 #document
 | <html>
 |   <head>
@@ -1599,6 +1600,7 @@ eof in template
 eof in template
 #new-errors
 (1:1) missing-doctype
+(1:33) eof-in-element-that-can-contain-only-text
 #document
 | <html>
 |   <head>
@@ -1797,6 +1799,8 @@ eof script
 eof template
 eof template
 eof table
+#new-errors
+(1:72) eof-in-element-that-can-contain-only-text
 #document
 | <!DOCTYPE html>
 | <html>
